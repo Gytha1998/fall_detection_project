@@ -8,7 +8,6 @@ WORKDIR /app
 COPY train.py .
 COPY requirements.txt .
 
-
 # 安裝 Python 依賴
 RUN pip install --no-cache-dir -r requirements.txt
 

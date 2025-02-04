@@ -9,7 +9,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # 🔹 修改資料集路徑，確保在 Docker 環境內可用
-DATASET_PATH = "/data1/zoey/fall_detection_project/UCI_HAR_Dataset"
+DATASET_PATH = "/app/UCI_HAR_Dataset"
 
 # 讀取 `features.txt`（特徵名稱）
 features_path = os.path.join(DATASET_PATH, "features.txt")
